@@ -1,0 +1,16 @@
+{
+  "id": "12345678-1234-1234-1234-123456789012",
+  "name": "NonProd",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "https://api.np.transport.nsw.gov.au",
+      "enabled": true
+    },
+    {
+      "key": "api_key",
+      "value": "GFm8l27mlQSY6DTifydFApDRZinQqEkg5Jaa",
+      "enabled": true
+    }
+  ]
+}

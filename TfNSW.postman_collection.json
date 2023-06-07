@@ -1,0 +1,5357 @@
+{
+	"info": {
+		"_postman_id": "082d7ccb-6e56-435b-ab09-32121c4465ee",
+		"name": "TfNSW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15753252",
+		"_collection_link": "https://planetary-crescent-866418.postman.co/workspace/TfNSW_CKAN_Migration~aaef5fb4-1391-4784-9943-4b2832d7591e/collection/15753252-082d7ccb-6e56-435b-ab09-32121c4465ee?action=share&creator=15753252&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Trip _Planner_Realtime",
+			"item": [
+				{
+					"name": "Light_Rail",
+					"item": [
+						{
+							"name": "GET_LightRail",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/lightrail",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"lightrail"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_CBDandSoutheast",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/lightrail/cbdandsoutheast",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"lightrail",
+										"cbdandsoutheast"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Innterwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/lightrail/innerwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"lightrail",
+										"innerwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newcastle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/lightrail/newcastle",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"lightrail",
+										"newcastle"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Regional_Buses",
+					"item": [
+						{
+							"name": "GET_Centralwestandorana",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/centralwestandorana",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"centralwestandorana"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Centralwestandorana2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/centralwestandorana2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"centralwestandorana2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Farwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/farwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"farwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newcastlehunter",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/newcastlehunter",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"newcastlehunter"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newenglandnorthwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/newenglandnorthwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"newenglandnorthwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Northcoast",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/northcoast",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"northcoast"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Northcoast2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/northcoast2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"northcoast2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Riverinamurray",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/riverinamurray",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"riverinamurray"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Riverinamurray2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/riverinamurray2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"riverinamurray2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Southeasttablelands",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/southeasttablelands",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"southeasttablelands"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Southeasttablelands2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/southeasttablelands2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"southeasttablelands2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Sydneysurrounds",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/realtime/regionbuses/sydneysurrounds",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"realtime",
+										"regionbuses",
+										"sydneysurrounds"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET_Buses",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/octet-stream;charset=UTF-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/zip",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/realtime/buses",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"realtime",
+								"buses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Ferries",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/realtime/ferries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"realtime",
+								"ferries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_NSWTrains",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"// pm.request.addHeader('Authorization: apikey {{var_APIKey}}')\r",
+									"// pm.request.addHeader('Authorization: apikey GFm8l27mlQSY6DTifydFApDRZinQqEkg5Jaa')\r",
+									"// pm.request.addHeader('Accept: application/octet-stream;charset=UTF-8')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/realtime/nswtrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"realtime",
+								"nswtrains"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Metro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/realtime/metro",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"realtime",
+								"metro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_SydneyferriesV2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/realtime/ferries/sydneyferries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"realtime",
+								"ferries",
+								"sydneyferries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_SydneytrainsV2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/realtime/sydneytrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"realtime",
+								"sydneytrains"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"// //Verify the response is a ZIP file",
+							"// pm.test(\"Response is a ZIP file\", function() {",
+							"//     pm.response.to.have.header(\"Content-Encoding\", \"gzip\");",
+							"// });",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Trip_Planner_TImeTables",
+			"item": [
+				{
+					"name": "Buses_Real_Time",
+					"item": [
+						{
+							"name": "GET_Buses",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_GSBC007",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/GSBC007",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"GSBC007"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_GSBC008",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/GSBC008",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"GSBC008"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_GSBC009",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/GSBC009",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"GSBC009"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_NISC001",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/NISC001",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"NISC001"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC001",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC001",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC001"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC002",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC002",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC002"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC003",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC003",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC003"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC004",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC004",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC004"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC005",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC005",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC005"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC006",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC006",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC006"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC007",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC007",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC007"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC008",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC008",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC008"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC009",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC009",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC009"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC0010",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC010",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC010"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC0011",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC011",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC011"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_OSMBSC0012",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/OSMBSC012",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"OSMBSC012"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF001",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF001",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF001"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF002",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF002",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF002"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF003",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF003",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF003"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF004",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF004",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF004"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF005",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF005",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF005"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF006",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF006",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF006"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF008",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF008",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF008"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF009",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF009",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF009"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF0010",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF010",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF010"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF0011",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF0011",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF0011"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF0023",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF0023",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF0023"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSF0024",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSF0024",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSF0024"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL001",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL001",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL001"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL002",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL002",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL002"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL003",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL003",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL003"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL004",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL004",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL004"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL005",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL005",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL005"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL006",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL006",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL006"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL007",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL007",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL007"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL008",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL008",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL008"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL009",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL009",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL009"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL010",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL010",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL010"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL011",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL011",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL011"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL023",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL023",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL023"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSL024",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSL024",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSL024"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBSM009",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBSM009",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBSM009"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST001",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST001",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST001"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST002",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST002",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST002"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST003",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST003",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST003"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST004",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST004",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST004"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST005",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST005",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST005"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST006",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST006",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST006"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST007",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST007",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST007"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST008",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST008",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST008"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST009",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST009",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST009"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST010",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST010",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST010"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST011",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST011",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST011"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST012",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST012",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST012"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST013",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST013",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST013"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST014",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST014",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST014"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST015",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST015",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST015"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST016",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST016",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST016"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST017",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST017",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST017"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST018",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST018",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST018"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST019",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST019",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST019"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST020",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST020",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST020"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST021",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST021",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST021"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST022",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST022",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST022"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST023",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST023",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST023"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST024",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST024",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST024"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRBST025",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/PRBST025",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"PRBST025"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SBSC006",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SBSC006",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SBSC006"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC001",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC001",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC001"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC002",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC002",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC002"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC003",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC003",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC003"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC004",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC004",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC004"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC005",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC005",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC005"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC010",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC010",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC010"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC012",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC012",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC012"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC013",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC013",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC013"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC014",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC014",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC014"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SMBSC015",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/buses/SMBSC015",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"buses",
+										"SMBSC015"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "LightRail_Real_Time",
+					"item": [
+						{
+							"name": "GET_Lightrail",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/lightrail",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"lightrail"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Cbdandsoutheast",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/lightrail/cbdandsoutheast",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"lightrail",
+										"cbdandsoutheast"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Innerwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/lightrail/innerwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"lightrail",
+										"innerwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newcastle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/lightrail/newcastle",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"lightrail",
+										"newcastle"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Regional_Buses_Real_Time",
+					"item": [
+						{
+							"name": "GET_Centralwestandorana",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/centralwestandorana",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"centralwestandorana"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Centralwestandorana2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/centralwestandorana2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"centralwestandorana2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Farwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/farwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"farwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newcastlehunter",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/newcastlehunter",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"newcastlehunter"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newenglandnorthwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/newenglandnorthwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"newenglandnorthwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Northcoast",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/northcoast",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"northcoast"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Northcoast2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/northcoast2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"northcoast2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Riverinamurray",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/riverinamurray",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"riverinamurray"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Riverinamurray2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/riverinamurray2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"riverinamurray2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Southeasttablelands",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/southeasttablelands",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"southeasttablelands"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Southeasttablelands2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/southeasttablelands2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"southeasttablelands2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Sydneysurrounds",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/schedule/regionbuses/sydneysurrounds",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"schedule",
+										"regionbuses",
+										"sydneysurrounds"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET_Sydneyferries",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/schedule/ferries/sydneyferries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"schedule",
+								"ferries",
+								"sydneyferries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Metro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/schedule/metro",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"schedule",
+								"metro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Nswtrains",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/schedule/nswtrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"schedule",
+								"nswtrains"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Sydneytrains",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/schedule/sydneytrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"schedule",
+								"sydneytrains"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_SydneyferriesV2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/schedule/ferries/sydneyferries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"schedule",
+								"ferries",
+								"sydneyferries"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Car_Park",
+			"item": [
+				{
+					"name": "GET_CarPark",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"accept-encoding": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/carpark",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"carpark"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_History",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"accept-encoding": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/carpark/history?eventdate=2023-05-30&facility=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"carpark",
+								"history"
+							],
+							"query": [
+								{
+									"key": "eventdate",
+									"value": "2023-05-30"
+								},
+								{
+									"key": "facility",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Eligibility",
+			"item": [
+				{
+					"name": "GET_License",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/eligibility/licence",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"eligibility",
+								"licence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Registration",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/eligibility/registration",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"eligibility",
+								"registration"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "GTFS",
+			"item": [
+				{
+					"name": "GET_PIMGR",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/alerts/PIMGR",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"alerts",
+								"PIMGR"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_SydneyTrains",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/alerts/sydneytrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"alerts",
+								"sydneytrains"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Trip_Planner_VehiclePos",
+			"item": [
+				{
+					"name": "LightRail",
+					"item": [
+						{
+							"name": "GET_LightRail",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/lightrail",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"lightrail"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Cbdandsoutheast",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/lightrail/cbdandsoutheast",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"lightrail",
+										"cbdandsoutheast"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Innerwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/lightrail/innerwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"lightrail",
+										"innerwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newcastle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/lightrail/newcastle",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"lightrail",
+										"newcastle"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Regional_Buses",
+					"item": [
+						{
+							"name": "GET_Centralwestandorana",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/centralwestandorana",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"centralwestandorana"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Centralwestandorana2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/centralwestandorana2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"centralwestandorana2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Farwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/farwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"farwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newcastlehunter",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/newcastlehunter",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"newcastlehunter"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Newenglandnorthwest",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/newenglandnorthwest",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"newenglandnorthwest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Northcoast",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/northcoast",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"northcoast"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Northcoast2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/northcoast2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"northcoast2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Riverinamurray",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/riverinamurray",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"riverinamurray"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Riverinamurray2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/riverinamurray2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"riverinamurray2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Southeasttablelands",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/southeasttablelands",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"southeasttablelands"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Southeasttablelands2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/southeasttablelands2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"southeasttablelands2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Sydneysurrounds",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/gtfs/vehiclepos/regionbuses/sydneysurrounds",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"gtfs",
+										"vehiclepos",
+										"regionbuses",
+										"sydneysurrounds"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET_Buses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/vehiclepos/buses",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"vehiclepos",
+								"buses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_SydneyFerries",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/vehiclepos/ferries/sydneyferries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"vehiclepos",
+								"ferries",
+								"sydneyferries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Metro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/vehiclepos/metro",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"vehiclepos",
+								"metro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Nswtrains",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/vehiclepos/nswtrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"vehiclepos",
+								"nswtrains"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_SydneyferriesV2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/vehiclepos/ferries/sydneyferries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"vehiclepos",
+								"ferries",
+								"sydneyferries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_SydneytrainsV2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/vehiclepos/sydneytrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"vehiclepos",
+								"sydneytrains"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "LDLB_Prod",
+			"item": [
+				{
+					"name": "GET_Checklearnerlicence",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/ldlb_prod/checklearnerlicence",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"ldlb_prod",
+								"checklearnerlicence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Checksupervisorlicence",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/ldlb_prod/checksupervisorlicence",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"ldlb_prod",
+								"checksupervisorlicence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Submitrecordcompletion",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/ldlb_prod/submitrecordcompletion",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"ldlb_prod",
+								"submitrecordcompletion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Whitelistedinstructors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/ldlb_prod/whitelistedinstructors",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"ldlb_prod",
+								"whitelistedinstructors"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Live_Traffic",
+			"item": [
+				{
+					"name": "Cameras",
+					"item": [
+						{
+							"name": "Hazards",
+							"item": [
+								{
+									"name": "GET_Alpine_All",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/alpine/all",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"alpine",
+												"all"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Alpine_Closed",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/alpine/closed",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"alpine",
+												"closed"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Alpine_Open",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/alpine/open",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"alpine",
+												"open"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Fire_All",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/fire/all",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"fire",
+												"all"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Fire_Closed",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/fire/closed",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"fire",
+												"closed"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Fire_Open",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/fire/open",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"fire",
+												"open"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Flood_All",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/flood/all",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"flood",
+												"all"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Flood_Closed",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/flood/closed",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"flood",
+												"closed"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Flood_Open",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/flood/open",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"flood",
+												"open"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Incident_All",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/incident/all",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"incident",
+												"all"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Incident_Closed",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/incident/closed",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"incident",
+												"closed"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Incident_Open",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/incident/open",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"incident",
+												"open"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Majorevent_All",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/majorevent/all",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"majorevent",
+												"all"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Majorevent_Closed",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/majorevent/closed",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"majorevent",
+												"closed"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Majorevent_Open",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/majorevent/open",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"majorevent",
+												"open"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Roadwork_All",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/roadwork/all",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"roadwork",
+												"all"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Roadwork_Closed",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/roadwork/closed",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"roadwork",
+												"closed"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GET_Roadwork_Open",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/v1/live/hazards/roadwork/open",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"v1",
+												"live",
+												"hazards",
+												"roadwork",
+												"open"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "GET_Cameras",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/live/cameras",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"live",
+										"cameras"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Status",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/v1/live/status",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"v1",
+										"live",
+										"status"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Maritime",
+			"item": [
+				{
+					"name": "GET_Spatial",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/maritime/spatial",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"maritime",
+								"spatial"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "SpotParking",
+			"item": [
+				{
+					"name": "GET_Dynamic",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/spotparking/dynamic",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"spotparking",
+								"dynamic"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Complex",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/spotparking/dynamic/complex",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"spotparking",
+								"dynamic",
+								"complex"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_ZoneGroups",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/spotparking/query/client/zoneGroups",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"spotparking",
+								"query",
+								"client",
+								"zoneGroups"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_CoordinateToGeohash",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/spotparking/utils/coordinateToGeohash",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"spotparking",
+								"utils",
+								"coordinateToGeohash"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Trip_Planner_Facilities",
+			"item": [
+				{
+					"name": "GET_Facilitiesandoperators",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/publictransport/facilitiesandoperators",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"publictransport",
+								"facilitiesandoperators"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Traffic_Volume",
+			"item": [
+				{
+					"name": "GET_Spatial",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "apikey GFm8l27mlQSY6DTifydFApDRZinQqEkg5Jaa"
+							}
+						],
+						"url": {
+							"raw": "https://api.transport.nsw.gov.au/v1/roads/spatial?format=geojson&q=select%20*%20from%20road_traffic_counts_station_reference%20limit%2050%20",
+							"protocol": "https",
+							"host": [
+								"api",
+								"transport",
+								"nsw",
+								"gov",
+								"au"
+							],
+							"path": [
+								"v1",
+								"roads",
+								"spatial"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "geojson"
+								},
+								{
+									"key": "q",
+									"value": "select%20*%20from%20road_traffic_counts_station_reference%20limit%2050%20"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "TDX",
+			"item": [
+				{
+					"name": "GET_Loadingzones",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/roads/static/loadingzones",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"roads",
+								"static",
+								"loadingzones"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Offstreetparking",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/roads/static/offstreetparking",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"roads",
+								"static",
+								"offstreetparking"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Trip_Planner_Timetable",
+			"item": [
+				{
+					"name": "GET_Transxchange",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/publictransport/timetables/complete/transxchange",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"publictransport",
+								"timetables",
+								"complete",
+								"transxchange"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.request.addHeader('Accept: application/x-zip-compressed')",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Trip_Planner",
+			"item": [
+				{
+					"name": "GET_Add_info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/tp/add_info",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"tp",
+								"add_info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Coord",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/tp/coord",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"tp",
+								"coord"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Departure_mon",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/tp/departure_mon",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"tp",
+								"departure_mon"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Stop_finder",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/tp/stop_finder",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"tp",
+								"stop_finder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Trip",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/tp/trip",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"tp",
+								"trip"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Historical_Traffic",
+			"item": [
+				{
+					"name": "GET_Historicaldata",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/traffic/historicaldata",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"traffic",
+								"historicaldata"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "SalesforceProd",
+			"item": [
+				{
+					"name": "GET_Attachment",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/cfs/attachment",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"cfs",
+								"attachment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Case",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/cfs/case",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"cfs",
+								"case"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Retrievecase",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/cfs/retrievecase",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"cfs",
+								"retrievecase"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Taxonomy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/cfs/taxonomy",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"cfs",
+								"taxonomy"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"// //Verify the response is a ZIP file",
+							"// pm.test(\"Response is a ZIP file\", function() {",
+							"//     pm.response.to.have.header(\"Content-Encoding\", \"gzip\");",
+							"// });",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Trip_Planner_Alerts",
+			"item": [
+				{
+					"name": "GET_All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/all",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Buses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/buses",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"buses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Ferries",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/ferries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"ferries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Sydneyferries",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/ferries/sydneyferries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"ferries",
+								"sydneyferries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Lightrail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/lightrail",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"lightrail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Metro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/metro",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"metro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_NSWTrains",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/nswtrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"nswtrains"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Regionbuses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/regionbuses",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"regionbuses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_SydneyTrains",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/gtfs/alerts/sydneytrains",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"gtfs",
+								"alerts",
+								"sydneytrains"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Toll_Calculator",
+			"item": [
+				{
+					"name": "GET_Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/roads/toll_calc/data",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"roads",
+								"toll_calc",
+								"data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Match",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/roads/toll_calc/match",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"roads",
+								"toll_calc",
+								"match"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_Route",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/roads/toll_calc/route",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"roads",
+								"toll_calc",
+								"route"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});",
+							"",
+							"// pm.test(\"Valid request body test\", function () {",
+							"//     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+							"// });",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Error_Handling_Tests",
+			"item": [
+				{
+					"name": "GET_NonExistingEndPointTests",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Non existing endpoint test\", function () {\r",
+									"    console.log(pm.response)\r",
+									"    pm.expect(pm.response).to.have.status(404);\r",
+									"    pm.expect(pm.response).to.have.status('Not Found');\r",
+									"    pm.sendRequest(pm.request.url, function (err, response) {\r",
+									"        // Verify if the response status code indicates a successful retry\r",
+									"        pm.expect(response.code).to.be.oneOf([200, 404]); // Modify this according to the expected successful status codes for a retry\r",
+									"    });\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/gtfs/realtime/nswtrainstest_001",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"gtfs",
+								"realtime",
+								"nswtrainstest_001"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response body is not empty\", function () {",
+							"    // Access the response body",
+							"    var responseBody = pm.response.text();",
+							"    // Check if the response body is not empty",
+							"    pm.expect(responseBody).to.not.be.empty;",
+							"});"
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.request.addHeader('Authorization: apikey {{var_APIKey}}')",
+					"// pm.request.addHeader('Authorization: apikey GFm8l27mlQSY6DTifydFApDRZinQqEkg5Jaa')",
+					"// pm.request.addHeader('Accept: application/octet-stream;charset=UTF-8')",
+					"",
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// pm.test(\"Status code is 200\", function () {",
+					"//     pm.response.to.have.status(200);",
+					"// });",
+					"",
+					"// //Verify the response is a ZIP file",
+					"// pm.test(\"Response is a ZIP file\", function() {",
+					"//     pm.response.to.have.header(\"Content-Encoding\", \"gzip\");",
+					"// });",
+					"",
+					"// pm.test(\"Response body is not empty\", function () {",
+					"//     // Access the response body",
+					"//     var responseBody = pm.response.text();",
+					"//     // Check if the response body is not empty",
+					"//     pm.expect(responseBody).to.not.be.empty;",
+					"// });",
+					"",
+					"// // pm.test(\"Valid request body test\", function () {",
+					"// //     pm.expect(pm.response.text()).to.have.jsonBody('status',\"OK\");",
+					"// // });",
+					"",
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "var_APIKey",
+			"value": "GFm8l27mlQSY6DTifydFApDRZinQqEkg5Jaa",
+			"type": "string"
+		}
+	]
+}
